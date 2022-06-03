@@ -34,7 +34,7 @@ def test_rouge(cand, ref):
         """
         Your Path
         """
-        r = pyrouge.Rouge155("/media/storage0/vrennard/AllComms/ROUGE/ROUGE-1.5.5/")
+        r = pyrouge.Rouge155("/media/storage0/vrennard/AllComms/ROUGE/")
         r.model_dir = tmp_dir + "/reference/"
         r.system_dir = tmp_dir + "/candidate/"
         r.model_filename_pattern = 'ref.#ID#.txt'
